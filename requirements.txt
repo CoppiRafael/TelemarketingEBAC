@@ -2,5 +2,5 @@ pandas
 streamlit
 numpy
 matplotlib
-PIL
+Pillow
 io
