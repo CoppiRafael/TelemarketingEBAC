@@ -20,13 +20,13 @@ def convert_df(df):
 
 def main():
     st.set_page_config(page_title="Telemarketing Analisys",
-                       page_icon='icon.png',
+                       page_icon='telemarketing_icon.png',
                        layout='wide',
                        initial_sidebar_state='expanded')
     st.write("# Telemarketing Analisys")
     st.markdown("---")
 
-    image = Image.open("bank.jfif")
+    image = Image.open("Bank-Branding.jpg")
     st.sidebar.image(image)
 
     st.sidebar.write("## Suba o arquivo")
